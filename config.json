@@ -1,0 +1,25 @@
+{
+  "apiKeys": {
+    "marketplaceAPI": "YOUR_MARKETPLACE_API_KEY_HERE"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "priceIntelligenceDB"
+  },
+  "server": {
+    "port": 3000
+  },
+  "logLevel": "info",
+  "marketplaces": [
+    "Amazon",
+    "eBay",
+    "Walmart",
+    "Target"
+  ],
+  "dataUpdateFrequency": {
+    "startup": "weekly",
+    "growth": "daily",
+    "enterprise": "hourly"
+  }
+}
